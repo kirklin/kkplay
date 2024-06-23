@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "moduleResolution": "Node",
+    "noImplicitThis": false,
+    "resolveJsonModule": true,
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "declarationMap": true,
+    "declarationDir": "dist/declaration",
+    // always use import type for type only imports
+    "verbatimModuleSyntax": true
+  },
+  "include": [
+    "src/**/*",
+    "scripts/**/*"
+  ]
+}
