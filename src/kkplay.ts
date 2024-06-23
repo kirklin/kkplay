@@ -1,4 +1,4 @@
-const VERSION = "3001.0.0";
+const VERSION = "0.0.0";
 
 import initApp from "./app";
 import initGfx, { BatchRenderer, FrameBuffer, Shader, Texture } from "./gfx";

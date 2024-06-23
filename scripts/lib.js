@@ -16,7 +16,7 @@ const fmts = [
         globalName: "kkplay",
         outfile: `${distDir}/kkplay.js`,
         footer: {
-            js: "window.kkplay = kkplay.default; window.kkplay = kkplay.default",
+            js: "window.kkplay = kkplay.default;",
         },
     },
     { format: "cjs", outfile: `${distDir}/kkplay.cjs` },
